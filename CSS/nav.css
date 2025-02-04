@@ -1,4 +1,7 @@
 nav {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
     background-color: rgb(152, 133, 88);
     overflow: hidden;
     display: flex;

@@ -16,13 +16,13 @@
     }
 </style>
 <body class ="bio-page">
-    <div class ="banner">
+    <div id="image" class ="banner image-hidden">
         <h4>Your journey is endless.</h4>
     </div>
     <nav>
         <ul>
             <li><a href="index.html"><img src="images/home.png" alt="Home" class="nav-icon"></a></li>
-            <li><a href="bio.html">hello</a></li>
+            <li><a href="https://github.com/Laurenducay" target="_blank"><img src="images/github.png" class="nav-icon"></a></li>
             <li><a href="bio.html">hello</a></li>
             <li><a href="bio.html">hello</a></li>
             <li><a href="bio.html">hello</a></li>
@@ -31,17 +31,24 @@
 
 
     <div class="box-main">
-        <div class="bio-page">
-            <img src="images/myself2.png" alt="Bio Image" class="bio-imge">
+        <!-- left side -->
+         <div class ="left-side">
+            <div class="bio-page">
+                <img id="image" src="images/myself2.png" alt="Bio Image" class="bio-image image-hidden">
+            </div>
+            <div id="image" class="box-info box-main"> 
+                <h3>this contains info</h3>
+                <h4>HELLLOASDLASNDASNDLASDLAKJSDLASJDLKASJDLKASJDLSA</h4>
+            </div>
         </div>
-        <div>
-            <h2>Hello!</h2>
-            <h3>My name is Lauren Ducay, a software development student at Year Up United.</h3>
-        </div>
-    </div>
 
-    <div class ="clearfix"></div>
+        <!-- right side -->
+        <div id="image" class="box-bio image-hidden">
+            <h1>Hello!</h1>
+            <h3>My name is Lauren Ducay, a software development student at Year Up United studying in Application Development! This page was created to share some of my artwork, and a new and imrpoved portal to link to my socials and projects I've been working on!</h3>
+        </div>
     </div>
+    <script>src="script.js"</script>
 </body>
 
 </html>
