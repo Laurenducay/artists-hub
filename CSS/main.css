@@ -1,0 +1,46 @@
+.banner {
+    /* background-image: url('images/me.jpeg') !important; */
+    background-color: rgb(234, 221, 202);
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    margin-left: auto;           /* Center the box horizontally */
+    margin-right: auto;
+    color: rgb(152, 133, 88);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+/*bio.html"*/
+.box-main {
+    /* opacity: 0.8; */
+    background-color: rgba(209, 187, 158, 0.8);  /* Light background color */
+    border-radius: 10px;         /* Rounded corners */
+    padding: 20px;               /* Space inside the box */
+    margin-top: 20px;            /* Space between nav bar and the box */
+    width: 90%;                  /* Width relative to the screen size */
+    margin-left: auto;           /* Center the box horizontally */
+    margin-right: auto;
+    display: flex;
+}
+.bio-page h2,h3 {
+    color: #FFF2E1;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.bio-image {
+    width: 100px;        /* Fixed width of the image */
+    height: 100px;       /* Fixed height of the image */
+    border-radius: 50%;  /* Make the image round */
+    object-fit: cover;   /* Ensure the image fits within the box without stretching */
+    margin-bottom: 15px; /* Space below the image */
+    display: block;
+}
+

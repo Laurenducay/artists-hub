@@ -1,0 +1,42 @@
+nav {
+    background-color: rgb(152, 133, 88);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 95%; 
+    border-radius: 0 0 10px 10px;
+    margin-left: auto;           /* Center the box horizontally */
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+
+    display: block;
+    color: rgb(234, 221, 202);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(150, 121, 105);
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.clearflix {
+    clear: both;
+}
